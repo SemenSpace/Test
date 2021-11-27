@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: url("../img/pon3.jpg");
+  font-family: Tahoma;
+  line-height: 1.5;
+}
+
+.sqrt {
+  line-height: 0;
+  animation: 2s fadeIn;
+  font-family: Arial;
+  font-size: 50px;
+  border-width: medium;
+  color: #1171bf
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.verh {
+  display: flex;
+  cursor: default;
+  box-shadow: 2px 4px 5px #6db9fe;
+  border-bottom: 10px solid;
+  border-color: #6db9fe;
+  font-weight: bold;
+  background: linear-gradient(#4d4949, #363232);
+  line-height: 0;
+  margin: auto auto;
+  width: 1920px;
+  height: 57px;
+  line-height: 1;
+  animation: 2s fadeIn;
+  border-width: medium;
+}
+
+.example-1 {
+  margin: 10px 10px;
+  height: 300px;
+  width: 300px;
+  background-size: 500px 500px;
+  background-image: url(https://placem.at/places?w=400&h=200&txt=0&random=1);
+  background-repeat: no-repeat;
+}
+
+.verh_b1 {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.verh_text {
+  font-size: 40px;
+  font-family: Trebuchet MS;
+  color: #6db9fe
+}
+
+.verh_ul {
+  display: inline-block;
+}
+
+.verh_pl {
+  flex-basis: auto;
+  height: 50px;
+  width: 500px;
+  margin: 2px;
+}
+
+.verh_pl_it {
+  flex-basis: 50%;
+  width: 70px;
+  height: 30px;
+  display: inline-block;
+  margin: 2px;
+}
+
+.verh_pl_im {
+  flex-basis: auto;
+  padding: 2px;
+  margin: 2px;
+}
